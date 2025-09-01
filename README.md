@@ -69,7 +69,7 @@ irys fund 2000000 \
 
 ### Step 5: Check Balance
 ```bash
-irys fund 1000000 \
+irys fund 2000000 \
   -n devnet \
   -t ethereum \
   -w Private_Key \
