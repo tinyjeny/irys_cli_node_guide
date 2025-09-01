@@ -60,10 +60,10 @@ irys fund 2000000 \
   -n devnet \
   -t ethereum \
   -w PRIVATE_KEY \
-  --provider-url https://1rpc.io/sepolia
+  --provider-url RPC_URL
 ```
-• Replace PRIVATE_KEY with your own key (put it without 0x & must use burner wallet)
-
+• Replace PRIVATE_KEY with your own key (put it without 0x & must use SECONDARY wallet)
+• Replace RPC_URL with selected network
 • Amount 2000000 is in wei
 
 
@@ -73,9 +73,9 @@ irys balance WALLET_ADDRESS \
   -n devnet \
   -t ethereum \
   -w Private_Key \
-  --provider-url https://1rpc.io/sepolia
+  --provider-url RPC_URL
 ```
-Replace WALLET_ADDRESS  with your own address
+Replace WALLET_ADDRESS & RPC_URL with your own address & RPC
 
 
 ### Step 6: Upload File
@@ -93,12 +93,12 @@ irys upload FILE_NAME \
   -t ethereum \
   -w PRIVATE_KEY \
   --tags FILE_NAME FILE_FORMAT \
-  --provider-url https://1rpc.io/sepolia
+  --provider-url RPC_URL
 ```
 • Replace FILE_NAME with its actual one:
 • Replace PRIVATE_KEY with your own key
 • Replace FILE_NAME & FILE_FORMAT (JPG,PNG)
-
+• Replace RPC_URL with your own rpc
 
 
 
