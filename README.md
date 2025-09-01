@@ -70,7 +70,7 @@ irys fund 2000000 \
 
 ### Step 5: Check Balance
 ```bash
-irys bakance WALLET_ADDRESS \
+irys balance WALLET_ADDRESS \
   -n devnet \
   -t ethereum \
   -w Private_Key \
@@ -89,7 +89,7 @@ ls -a
 ```
 3. Upload:
 ```bash
-irys upload test.png \
+irys upload FILE_NAME \
   -n devnet \
   -t ethereum \
   -w PRIVATE_KEY \
