@@ -10,7 +10,7 @@ The Irys CLI is a simple command-line tool for interacting with Irys. This guide
 - Ubuntu (20.04 / 22.04 / 24.04)  
 - 4GB RAM atleast  
 - Burner wallet (do not use your main wallet!)  
-- ETH Sepolia testnet RPC [Chainlist](https://chainlist.org))  
+- ETH Sepolia testnet RPC ([Chainlist](https://chainlist.org))  
 - ETH Sepolia faucet (get free tokens from [Alchemy Faucet](https://sepoliafaucet.com))  
 
 ---
