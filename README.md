@@ -90,7 +90,7 @@ irys upload test.png \
   -n devnet \
   -t ethereum \
   -w PRIVATE_KEY \
-  --tags test png \
+  --tags FILE_NAME & FILE_FORMAT \
   --provider-url https://1rpc.io/sepolia
 ```
 • Replace FILE_NAME with its actual one:
