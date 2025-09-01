@@ -67,14 +67,17 @@ irys fund 2000000 \
 
 • Amount 2000000 is in wei
 
+
 ### Step 5: Check Balance
 ```bash
-irys fund 2000000 \
+irys bakance WALLET_ADDRESS \
   -n devnet \
   -t ethereum \
   -w Private_Key \
   --provider-url https://1rpc.io/sepolia
 ```
+Replace WALLET_ADDRESS  with your own address
+
 
 ### Step 6: Upload File
 
@@ -94,9 +97,7 @@ irys upload test.png \
   --provider-url https://1rpc.io/sepolia
 ```
 • Replace FILE_NAME with its actual one:
-
 • Replace PRIVATE_KEY with your own key
-
 • Replace FILE_NAME & FILE_FORMAT (JPG,PNG)
 
 
@@ -106,7 +107,7 @@ irys upload test.png \
 
 YOU ARE GOOD TO GO
 
-                                                   BYE CUTIESSSS <3  
+                                            BYE CUTIESSSS <3  
 
 
 
